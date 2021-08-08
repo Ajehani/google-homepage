@@ -1,93 +1,44 @@
+
 <!DOCTYPE html>
-<html>
-
-<style>
-    /* html{
-        margin: 50%;
-
-    } */
-    nav,footer{
-        display:flex;
-        flex:1 1 400px;
-        color:black;
-        justify-content: space-evenly;
-        grid-gap:100px;
-    }
-
-    div:hover{
-        color:darkcyan;
-    }
-
-    #search_appendage {
-        display:grid;
-        grid-template-rows:100px 100px;
-        flex-direction: row;
-        background:rgb(194, 199, 205);
-        font-style: serif;
-        font-size: 12px;
-        grid-gap: 10px;
-    }
-
-    #bar{
-    justify-content:center;
-    border-radius:60px;
-    border-style: solid;
-    width:50%;
-   
-   }
-   
-/*     
-    #Extra {
-        display: flex;
-       justify-content: flex-end; 
-       font-size: 20px;
-        /* position: absolute;
-        top:8px;
-        right:10px;
-         */
-   /* 
-   
-
-   #Sign-In {
-       display: flex;
-       font-size: 20px;
-       background-color: rgb(76, 76, 99);
-       color: cornsilk;
-       justify-content: flex-end;
-     */
-    /* } */
-    /* #Tab {
-        /* display:grid;
-        height: 200px;
-        width: 100%;
-        /* grid-template: repeat(3, 15% 50px) 10px;
-        grid-gap: 50px;
-        box-sizing:border-box; */
-        /* display: flex,grid;
-        flex: 0 0 300px;
-        min-height: 300px;
-        background: LightGray;
-        grid-row-gap: 10px;
-        justify-content: space-around;
-     */
-    /* } */ 
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
 <nav>
-<div>Mail</div><div>images</div><div>sign-up</div>
+    <a class="nav" href='#'>Gmail</a>
+    <a class="nav" href='#'>Images</a>
+    <button class="nav" id="grid"></button>
+    <a href="https://github.com/Ajehani"> <img id="profile" src="img/profile.jpeg"></a>
 </nav>
-
-<body>
-<img   style="text-align: center;
-width:40%;" src="https://logo-logos.com/wp-content/uploads/2016/11/Google_logo_logotype.png" alt="An image of the Google Logo">
-<input id="bar" placeholder="Search the Web!">
-<div> 
-<button id="search_appendage">Google-Search</button>
-<button id="search_appendage">I'm feeling lucky</button>
-</div>   
+<body> 
+<img id="google" src="https://logo-logos.com/wp-content/uploads/2016/11/Google_logo_logotype.png" alt="An image of the Google Logo">
+<div class="searchbox">
+<img id="glass" src="https://michalosman.github.io/google-homepage/images/google-search.png" alt="google-search">
+<input type="text" autocomplete="off" id="search">
+<img id='mic' style="cursor:pointer;" src="https://michalosman.github.io/google-homepage/images/google-microphone.png" alt="google-microphone">
+</div>
+<div id="flex">
+<button type="button" class="search_appendage">Google-Search</button>
+<button type="button" class="search_appendage">I'm feeling lucky</button>
+</div>
 </body>
-
 <footer>
-<div><strong>Advertising</strong></div> <div><strong>Privacy</strong></div>
+    <ul style="display:flex; justify-content:flex-start;">  
+        <a class="footer-link" href="#">Advertising</a>
+        <a class="footer-link" href="#">Business</a>
+        <a class="footer-link" href="#">How Search Works</a>
+    </ul>
+    <ul style="display: flex; justify-content: flex-end;">
+        <a class="footer-link" href="#">Privacy</a>
+        <a class="footer-link" href="#">Terms</a>
+        <a class="footer-link" href="#">Settings</a>
+    </ul>
 </footer>
 </html>
+<!DOCTYPE html>
 

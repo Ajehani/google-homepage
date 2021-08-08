@@ -1,0 +1,125 @@
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a:visited{
+    color:black;
+    text-decoration:none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+#grid{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -131px -37px;
+    opacity: 0.6;
+    border: none;
+}
+#flex{
+    display: flex;
+    justify-content: center;
+}
+button{
+    cursor:pointer;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+#google {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height:8rem;
+}
+.searchbox{
+    display: flex;
+    border:0.2rem solid #e5e7e9;
+    border-radius:6rem;
+    margin:auto;
+    outline: none;
+
+}
+.searchbox>img{
+    height:2rem;
+    width:2rem;
+}
+#search{
+    height: 2.5rem;
+    width:35rem;
+    outline: none;
+    font-size: 1rem;
+    border: 0;
+}
+.nav{
+    margin: 0 1.5rem 0 0;
+    display: inline;
+}
+#profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:0 0 10rem 0;
+}
+
+footer{
+    display:flex;
+    flex:1 1 400px;
+    justify-content:space-around;
+}
+nav{
+    position:fixed;
+    padding:10px 10px 0px 10px;
+    top:0;
+    width:100%;
+    height:30px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+footer{
+    background-color: rgb(242, 239, 239);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:3rem;
+    color:#70757a;
+}
+.footer-link{
+    padding: 0 2rem;
+    font-size:0.9rem ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_appendage {
+    display:inline-block;
+    min-width: 54px;
+    height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 1rem;
+    /* width: 150px;
+    margin:auto;
+    border:2px solid black;
+    border-radius:20px;
+    font-style: serif;  */
+}
+#glass{
+    width:30px;
+    margin: 3px 0 0 9px;
+}
+#mic{
+    width:30px;
+    margin: 3px 9px 0 0;
+}
